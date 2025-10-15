@@ -1,0 +1,27 @@
+<h1>Template Variable Test Cases</h1>
+<h2>Basic</h2>
+<p>Hello, <var>planet</var>!</p>
+<h2>Multiple Variables</h2>
+<p><var>greeting</var> <var>name</var>, welcome to <var>place</var>!</p>
+<h2>Variables with Spaces</h2>
+<p><var> var_with_spaces </var></p>
+<h2>Variables with Special Characters</h2>
+<p><var>user.name</var> and <var>user_id</var> and <var>item-count</var></p>
+<h2>Escaping</h2>
+<p><var>pla}net</var> and <var>pla{net</var> and <var>pla\net</var></p>
+<h2>Adjacent Variables</h2>
+<p><var>a</var><var>b</var><var>c</var></p>
+<h2>Variables in Emphasis</h2>
+<p><em><var>emphasized</var></em> and <strong><var>strong</var></strong></p>
+<h2>Variables at Boundaries</h2>
+<p><var>start</var> middle <var>end</var></p>
+<h2>Empty</h2>
+<p><var></var> should be a variable</p>
+<h2>Incomplete (Should Not Parse)</h2>
+<p>{{incomplete</p>
+<h2>Nested Braces</h2>
+<p>{{outer<var>inner</var>outer}}</p>
+<h2>Triple Braces</h2>
+<p><var>{triple</var>}</p>
+<h2>With Character References</h2>
+<p><var>pla}net</var> and <var>pla}net</var></p>

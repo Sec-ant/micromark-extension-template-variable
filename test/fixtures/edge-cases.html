@@ -1,0 +1,30 @@
+<h1>Edge Cases</h1>
+<h2>Single Opening Brace</h2>
+<p>A single { should not start a variable.</p>
+<h2>Mismatched Braces</h2>
+<p>{{hello} should not parse.</p>
+<p>{hello}} should not parse.</p>
+<h2>Multiple Adjacent Opening Braces</h2>
+<p>{<var>{hello</var> has four opening braces.</p>
+<h2>Multiple Adjacent Closing Braces</h2>
+<p><var>hello</var>}} has four closing braces.</p>
+<h2>Variables in Links</h2>
+<p><a href="%7B%7Burl%7D%7D"><var>link_text</var></a></p>
+<p><a href="%7B%7Burl%7D%7D">text</a></p>
+<h2>Variables in Headings</h2>
+<h1><var>title</var></h1>
+<h2><var>subtitle</var></h2>
+<h3><var>heading3</var></h3>
+<h2>Variables in Lists</h2>
+<ul>
+<li><var>item1</var></li>
+<li><var>item2</var></li>
+<li>Normal item with <var>var</var></li>
+</ul>
+<h2>Variables in Blockquotes</h2>
+<blockquote>
+<p><var>quote</var></p>
+<p>Multiple lines with <var>var</var></p>
+</blockquote>
+<h2>Only a Variable</h2>
+<p><var>standalone</var></p>

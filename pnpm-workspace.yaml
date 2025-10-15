@@ -1,0 +1,6 @@
+onlyBuiltDependencies:
+  - esbuild
+  - simple-git-hooks
+
+publicHoistPattern:
+  - "@changesets/config"
