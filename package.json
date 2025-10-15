@@ -18,11 +18,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Sec-ant/micromark-extension-template.git"
+    "url": "https://github.com/Sec-ant/micromark-extension-template-variable.git"
   },
-  "homepage": "https://github.com/Sec-ant/micromark-extension-template",
+  "homepage": "https://github.com/Sec-ant/micromark-extension-template-variable",
   "bugs": {
-    "url": "https://github.com/Sec-ant/micromark-extension-template/issues",
+    "url": "https://github.com/Sec-ant/micromark-extension-template-variable/issues",
     "email": "zezhengwu@proton.me"
   },
   "keywords": [
